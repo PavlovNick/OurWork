@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;700&display=swap');
+/* 
+Roboto - Helvetica/Helvetica Neue
+Open Sans - Open Sans
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*__________ourWork__________*/
+
+body{
+    display:block;
+    min-width: 1400px;
+}
+
+.ourWork{
+    min-width:100%;
+    height: 870px;
+    background-color: #de2b24;
+}
+
+.ourWork__header{
+    padding-bottom: 49px;
+}
+
+.ourWork__underLine{
+    margin-left: auto;
+    margin-right: auto
+}
+
+.title{
+    padding-top: 105px;
+    padding-bottom: 18px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.title span{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.ourWork__underLine{
+    width: 47px;
+    height: 5px;
+    background-color: #f3f3f3;
+}
+
+.ourWork__row{
+    width: 1028px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.item-card{
+    width: 257px;
+    height: 253px;
+    background-color: #f35e59;
+    float: left;
+}
+
+.item-card:hover{
+    opacity: 0.8;
+}
+
+.photos > img{
+    width: 100%;
+    height: auto;
+}
+
+.projectName__tgIcons{
+    padding-top: 74px;
+    text-align: center;
+}
+
+.projectName__text{
+    padding-top: 25px;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.projectName__text span{
+    font-size: 16px;
+}
+
+/*__________facebookAnalysis__________*/
+
+.facebookAnalysis{
+    min-width:100%;
+    background-color: #1287bf;
+    padding-bottom: 112px;
+}
+
+.facebookAnalysis__mainButton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 58px;
+    height: 58px;
+    padding-bottom: 20px;
+}
+
+.facebookAnalysis__mainButton button:hover{
+    background-color:#14a9e9;
+}
+
+.facebookAnalysis__mainButton button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    border: 3px solid #ffffff;
+}
+
+.facebookAnalysis__mainButton button > img{
+    padding-top: 10%;
+    width: 50%;
+    height: auto;
+}
+
+.facebookAnalysis__mainButton button:active{
+    background-color:#0b506e;
+}
+
+.facebookAnalysis__form{
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.form-arrow{
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #ffffff;
+}
+
+.form-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 683px;
+    height: 460px;
+    border-radius: 3px;
+    background-color:#ffffff;
+}
+
+.form-body-text{
+    padding-bottom: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 548px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.input-field{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+.input-fieldField{ 
+    width: 450px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left:20px ;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: black;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+
+}
+
+.input-fieldField::placeholder{
+    color: #b0b0b0;
+}
+
+.input-field input:hover{
+    border: 1px solid #1287bf;
+    box-shadow: 0px 0px 1px 1px #349ecf;
+}
+
+.input-fieldField:focus {
+    color: black;
+    background-color: #fff;
+    border-color: #1287bf;
+    outline: 0;
+    box-shadow: 0px 0px 1px 1px #349ecf;
+  }
+
+.input-field-button{
+    width: 160px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 38px;
+}
+
+.input-field-button input{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    width: 160px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    background-color: #de2b24;
+}
+
+.input-field-button input:hover{
+    background-color: #eb4d48;
+}
+
+.input-field-button input:active{
+    background-color: #981611;
+}
+
+.close-button{
+    width: 40px;
+    position: relative;
+    top:-22;
+    left: 655;
+}
+
+.close-button button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #de2b24;
+    border: 2px solid #ffffff;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.close-button button:hover{
+    background-color: #eb4d48;
+}
+
+.close-button button:active{
+    background-color: #981611;
+}
+
+#facebookAnalysis_form_{
+    display:block;
+}
+
+/*__________getInTouch__________*/
+
+.getInTouch{
+    min-width:100%;
+    background-color: #2a2a2a;
+}
+
+.getInTouch__title{
+    font-size: 30;
+    padding-top:80px;
+    padding-bottom: 25px;
+}
+
+.getInTouch__socialNetworkList{
+    height: 49px;
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px;
+}
+
+.socialNetworkList-item{
+    margin-left: 11px;
+    margin-right: 11px;
+    height: 49px;
+    width: 49px;
+    float: left;
+}
+
+.socialNetworkList-item-innerContainer{
+    height: 45px;
+    width: 45px;
+    border-radius: 1px;
+    background-color: rgba(243,243,243,0);
+    border: 2px solid #515151;
+}
+
+.socialNetworkList-item-innerContainer > img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25%;
+    width: 50%;
+    height: auto;
+}
+
+.socialNetworkList-item-innerContainer > #facebookIcon{
+    padding-left: 34%;
+    padding-right: 34%;
+    padding-top: 20%;
+    height: auto;
+    width: 32%;
+}
+
+.socialNetworkList-item-innerContainer:hover{
+    border: 2px solid #de2b24;
+}
+
+.getInTouch__text{
+    font-size: 14px;
+    line-height: 22px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.secondInputfield{
+    margin-left: auto;
+    margin-right: auto;
+    width: 684px;
+    height: 56px;
+    padding-bottom: 26px;
+}
+
+.secondInputfieldField{
+    width: 682px;
+    height: 54px;
+    border-radius: 1px;
+    background-color: #515151;
+    font-size: 14px;
+    line-height: 22px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-left: 22px;
+}
+
+.secondInputfieldField:focus{
+    color: #cecece;
+    background-color: #515151;
+    border-color: #1287bf;
+    outline: 0;
+}
+
+.getInTouch__button{
+    width: 154px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 82px;
+}
+
+.getInTouch__button button{
+    width: 150px;
+    height: 50px;
+    border-radius: 1px;
+    background-color: rgba(243,243,243,0);
+    border: 2px solid #515151;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.getInTouch__button button:hover{
+    background-color: #423f3f;
+}
+
+.getInTouch__button button:active{
+    background-color: #515151;
+}
+
+/*__________footer__________*/
+
+.footer{
+    min-width:100%;
+    background-color: #515151;
+}
+
+.footer-text{
+    font-size: 14px;
+    line-height: 27px;
+    color: #cecece;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top:24px;
+    padding-bottom:24px;
+    text-align: center;
+}
